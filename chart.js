@@ -2,7 +2,7 @@ const chart = document.querySelector('.chart');
 
 const canvas = document.createElement('canvas');
 canvas.width = 50;
-canvas.heigh = 50;
+canvas.height = 50;
 
 chart.appendChild(canvas);
 

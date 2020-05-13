@@ -69,7 +69,6 @@ input[type=number] {
 }
 
 .budget-header .account{
-    border: solid 1px green;
     display: block;
     width: 310px;
     margin: 35px auto 0;
@@ -79,7 +78,6 @@ input[type=number] {
 }
 
 .budget-header .account .income, .chart, .outcome{
-    border: solid 1px purple;
     height: 50px;
     display: inline-block;
     width: 100px;
@@ -87,23 +85,19 @@ input[type=number] {
 }
 
 .budget-header .account .income .title{
-    border: solid 1px yellow;
     color: #FFF;
     opacity: 0.5;
 }
 .budget-header .account .income .income-total{
-    border: solid 1px pink;
     color: #FFF;
     font-family: 'Gilroy Bold';
 }
 
 .budget-header .account .outcome .title{
-    border: solid 1px yellow;
     color: #FFF;
     opacity: 0.5;
 }
 .budget-header .account .outcome .outcome-total{
-    border: solid 1px pink;
     color: #f0624d;
     font-family: 'Gilroy Bold';
 }
