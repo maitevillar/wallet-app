@@ -1,6 +1,7 @@
 # wallet-app
 
 _Budgeting app that calculates a budget based on a list of income and expenses._
+_Code based on this [Repository] (https://github.com/codeexplainedrepo/?ref=morioh.com)_
 
 ## Content
 
@@ -36,11 +37,10 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 ## structure
 
 ## web images 💻
-<!-- 
-![video](images/dice-game.gif) -->
 
+![image](images/preview.jpg)
 
-- 😀
+ 😀
 
 ---
 ⌨️ with ❤️ by [Maite Villar]
