@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width-device.width">
         <title> Budget app </title>
+        <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="stylesheets/style.css">
     </head>
     <body>
@@ -15,7 +16,7 @@
            <div class="budget-header">
                <div class="balance">
                    <div class="title">balance</div>
-                   <div class="value"> <small>€</small></div>
+                   <div class="value"> 0 <small>€</small></div>
                </div>
 
                <div class="account">
@@ -31,7 +32,9 @@
                </div>
            </div>
 
-           <div class="budget-dashboard">
+           <div class="open-dash"> </div>
+
+           <div class="budget-dashboard hide">
                <div class="dash-title">dashboard</div>
                <div class="toggle">
                    <div class="tab1">expenses</div>
@@ -44,7 +47,7 @@
                    <div class="input">
                         <input type="text" id="income-title-input" name="title" placeholder="title">
                         <input type="number" id="income-amount-input" name="amount" placeholder="0€">
-                        <div class="add-income"><img src="" alt="+"></div>
+                        <div class="add-income"><img src="./images/add-1.png" alt="add"></div>
                     </div>
                </div>
 
@@ -53,7 +56,7 @@
                     <div class="input">
                         <input type="text" id="expense-title-input" name="title" placeholder="title">
                         <input type="number" id="expense-amount-input" name="amount" placeholder="0€">
-                        <div class="add-expense"><img src="" alt="+"></div>
+                        <div class="add-expense"><img src="./images/add-1.png" alt="+"></div>
                     </div>
                 </div>
 

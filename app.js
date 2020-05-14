@@ -7,6 +7,8 @@ const allEl = document.querySelector('#all');
 const incomeList = document.querySelector('#income .list');
 const expenseList = document.querySelector('#expense .list');
 const allList = document.querySelector('#all .list');
+const openBtn = document.querySelector('.open-dash')
+const budgetEl = document.querySelector('.budget-dashboard')
 
 const expenseBtn = document.querySelector('.tab1');
 const incomeBtn = document.querySelector('.tab2');
@@ -73,6 +75,12 @@ addIncome.addEventListener('click', function(){
 
     updateUI();
     clearInput([incomeTitle, incomeAmount])
+})
+
+openBtn.addEventListener('click', function(){
+    budgetEl.classList.remove('hide')
+    budgetEl.classList.add('show')
+    openBtn.classList.add('hide')   
 })
 
 //HELPERS
