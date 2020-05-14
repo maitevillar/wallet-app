@@ -1,7 +1,9 @@
 # wallet-app
 
 _Budgeting app that calculates a budget based on a list of income and expenses._
-_Code based on this [Repository] (https://github.com/codeexplainedrepo/?ref=morioh.com)_
+
+
+_Code based on this https://github.com/codeexplainedrepo/?ref=morioh.com_
 
 ## Content
 
@@ -35,6 +37,23 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 > Unpacking objects: 100% (10/10), done.
 ```
 ## structure
+
+.
+├── README.md
+├── app.js
+├── chart.js
+├── images
+│   ├── abstract.jpg
+│   ├── add-1.png
+│   ├── edit.png
+│   ├── mas-1.png
+│   ├── mas1.png
+│   ├── preview.jpg
+│   └── trash.png
+├── index.html
+└── stylesheets
+    └── style.css
+
 
 ## web images 💻
 
