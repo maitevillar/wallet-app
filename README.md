@@ -38,6 +38,7 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 ```
 ## structure
 
+```bash
 .
 ├── README.md
 ├── app.js
@@ -53,7 +54,7 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 ├── index.html
 └── stylesheets
     └── style.css
-
+```
 
 ## web images 💻
 
