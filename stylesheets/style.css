@@ -162,8 +162,11 @@ input[type=number] {
     margin-left: 10px;
 }
 
-.focus{
-    opacity: 1 !important;
+.active { 
+    font-size: 1.1em;
+    font-weight: 600;
+    color: #1a0034;
+    opacity: 1;
 }
 
 .hide{
@@ -197,6 +200,7 @@ input[type=number] {
 .budget-dashboard #all ul.list li{
     position: relative;
     font-size: 1em;
+    font-weight: 600;
 }
 
 .budget-dashboard #all ul.list li *{
@@ -209,7 +213,7 @@ input[type=number] {
     width:250px;
     height: auto;
     padding-left: 20px;
-    margin-bottom: 10px;;
+    margin-bottom: 5px;;
     word-wrap: break-word;
     font-family: 'Hind Siliguri', sans-serif;
 }
@@ -231,6 +235,7 @@ input[type=number] {
 
 .budget-dashboard #all ul.list li.expense{
     color: #f0624d;
+    font-weight: 400;
 }
 
 /* //////// EXPENSE ////////// */
@@ -298,6 +303,7 @@ input[type=number] {
 .budget-dashboard #expense ul.list li{
     position: relative;
     font-size: 1em;
+    font-weight: 600;
 }
 
 .budget-dashboard #expense ul.list li *{
@@ -402,6 +408,7 @@ input[type=number] {
 .budget-dashboard #income ul.list li{
     position: relative;
     font-size: 1em;
+    font-weight: 600;
 }
 
 .budget-dashboard #income ul.list li *{
