@@ -3,7 +3,7 @@
 _Budgeting app that calculates a budget based on a list of income and expenses._
 
 
-_Code based on this https://github.com/codeexplainedrepo/?ref=morioh.com_
+_Code based on https://github.com/codeexplainedrepo/?ref=morioh.com_
 
 ## Content
 
